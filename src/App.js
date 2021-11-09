@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Usestate1 from "./components/Usestate-1";
+import Conditional from "./components/Conditional"
 // import image1 from "./assets/243-glasses-eye-blink-outline.svg"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           {/* <i class="bi bi-folder"></i> */}
         </div>
         <Usestate1/>
+        <Conditional/>
       </div>
     </div>
   );
