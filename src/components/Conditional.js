@@ -10,6 +10,7 @@ const Conditional = () => {
 
   return (  
     <section className="mt-5 mb-2 pt-5 pb-4 bg-light rounded-2">
+      <h3 className="text-primary">Conditional</h3>
       <div className="d-flex justify-content-center align-items-center mt-4">
         <p className="me-4 mt-2">Click to change the state...</p>
         <button className="btn btn-primary" onClick={() => changeState()}>Change</button>

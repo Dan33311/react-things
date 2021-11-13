@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import Usestate1 from "./components/Usestate-1";
+import Counters from "./components/Counters";
 import Conditional from "./components/Conditional"
+import String from "./components/String"
+
 // import image1 from "./assets/243-glasses-eye-blink-outline.svg"
 
 function App() {
@@ -16,8 +18,9 @@ function App() {
           <h2 className="text-light">React Stuff</h2>
           {/* <i class="bi bi-folder"></i> */}
         </div>
-        <Usestate1/>
+        <Counters/>
         <Conditional/>
+        <String/>
       </div>
     </div>
   );
