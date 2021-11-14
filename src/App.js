@@ -3,6 +3,7 @@ import './App.css';
 import Counters from "./components/Counters";
 import Conditional from "./components/Conditional"
 import String from "./components/String"
+import ObjectT from "./components/ObjectT"
 
 // import image1 from "./assets/243-glasses-eye-blink-outline.svg"
 
@@ -21,6 +22,7 @@ function App() {
         <Counters/>
         <Conditional/>
         <String/>
+        <ObjectT/>
       </div>
     </div>
   );
