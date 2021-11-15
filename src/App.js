@@ -4,6 +4,7 @@ import Counters from "./components/Counters";
 import Conditional from "./components/Conditional"
 import String from "./components/String"
 import ObjectT from "./components/ObjectT"
+import ArrayY from './components/ArrayY';
 
 // import image1 from "./assets/243-glasses-eye-blink-outline.svg"
 
@@ -23,6 +24,7 @@ function App() {
         <Conditional/>
         <String/>
         <ObjectT/>
+        <ArrayY />
       </div>
     </div>
   );

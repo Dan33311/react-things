@@ -1,19 +1,20 @@
 import { useState } from "react"
 
-const cars =  {
+const singleCar =  {
   model: "Ford Focus",
   detail: "style sedan",
-  motor: {
-    valves: 8,
-    rev: "1660rpm"
-  }
+  // motor: {
+  //   valves: 8,
+  //   rev: "1660rpm"
+  // }
 }
 
 const ObjectT = () => {
 
   const [ car, setCar] = useState()
 
-  // const updateInfoCar = (property, value) => {
+  // working with properties
+  // const updateCar = (property, value) => {
   //   setCar({
   //     ...car,
   //     [property]: value
@@ -21,17 +22,21 @@ const ObjectT = () => {
   // }
 
   const showCar = () => {
-    setCar(cars)
+    setCar(singleCar)
   }
 
   return (  
     <section className="mt-5 mb-2 pt-5 pb-4 bg-light rounded-2">
       <h3 className="text-primary">Object</h3>
       <div className="d-flex justify-content-center align-items-center mt-4">
-        {/* <button className="btn btn-primary me-3" onClick={() => showCar("color", "platinum")}>Update Object</button> */}
-        <button className="btn btn-primary me-3" onClick={() => showCar()}>Show an Object</button>
-        <pre className="text-left align-items-start">{JSON.stringify(car, null, 1)}</pre>
-        <button className="btn btn-info ms-3" onClick={() => setCar()}>Clear</button>
+        {/* using the properties */}
+        {/* <button className="btn btn-primary me-3" onClick={() => updateCar("color", "platinum")}>Update Object</button> */}
+        <button className="btn btn-primary my-2 me-3" onClick={() => showCar()}>Show the Object</button>
+        {/* <div className="text-objectt"> */}
+        <div className="text-start mx-5">
+          <pre>{JSON.stringify(car, null, 2)}</pre>
+        </div>
+        <button className="btn btn-info my-2 ms-3" onClick={() => setCar()}>Clear</button>
       </div>
     </section>
   );
