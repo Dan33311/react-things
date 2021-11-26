@@ -1,10 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import Counters from "./components/Counters";
-import Conditional from "./components/Conditional"
-import String from "./components/String"
-import ObjectT from "./components/ObjectT"
-import ArrayY from './components/ArrayY';
+
+import Counters from "./components/useState/Counters";
+import Conditional from "./components/useState/Conditional"
+import String from "./components/useState/String"
+import ObjectT from "./components/useState/ObjectT"
+import ArrayY from './components/useState/ArrayY';
+
+import Lifecicle from './components/useEffect/Lifecycle';
 
 // import image1 from "./assets/243-glasses-eye-blink-outline.svg"
 
@@ -20,11 +23,14 @@ function App() {
           <h2 className="text-light">React Stuff</h2>
           {/* <i class="bi bi-folder"></i> */}
         </div>
+        <h2 className="text-light mt-4">useState Hook</h2>
         <Counters/>
         <Conditional/>
         <String/>
         <ObjectT/>
         <ArrayY />
+        <h2 className="text-light mt-5 mb-0 pb-0">useEffect Hook</h2>
+        <Lifecicle/>
       </div>
     </div>
   );
