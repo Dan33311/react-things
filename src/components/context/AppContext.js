@@ -23,5 +23,9 @@ const AppContext = () => {
   )
 }
 
-
 export default AppContext
+
+// create context
+// create a hook that should use the context
+// use the context as a provider and asign values
+// create a component that uses values from the context values
