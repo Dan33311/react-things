@@ -20,5 +20,5 @@
       <!-- Hablan sobre que necesitamos entender lo que es renderizado -->
       <!-- cada vez que cambiamos un estado se realiza un render, pero el estado se mantiene -->
     [x] 02. Cada Render Tiene Sus Propios Manejadores De Eventos
-      <!-- En los manejadores de eventos en este ejemplo el alert recuerda el estado que le pasamos, -->
-      <!-- al momento exacto que lo ejecutamos, asi sigamos cambiando el estado, -->
+      <!-- En los manejadores de eventos en este ejemplo el `alert`,  recuerda el estado (count) que le pasamos, al momento exacto que ejecutamos el `alert`, asi sigamos cambiando el estado, -->
+    [ ] 03. Cada Render Tiene Sus Propios Effect
