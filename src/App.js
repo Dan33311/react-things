@@ -13,7 +13,10 @@ import ResizeApp from './components/useEffect/ResizeApp';
 
 // import AppContext from './components/context/AppContext'
 import App2 from './components/context/App2'
+import Counter1 from './components/useEffect/02-useEffect/01-Counter'
 import Counter from './components/useEffect/02-useEffect/02-Counter'
+import Counter3 from './components/useEffect/02-useEffect/03'
+
 
 // import image1 from "./assets/243-glasses-eye-blink-outline.svg"
 
@@ -47,7 +50,9 @@ function App() {
       </div>
       {/* <AppContext /> */}
       {/* <App2 /> */}
+      <Counter1 />
       <Counter />
+      <Counter3 />
     </div>
   );
 }
