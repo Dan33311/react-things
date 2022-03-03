@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from "react"
-import getUser from "../../helpers/getUser"
-import getPosts from "../../helpers/getPost"
+import getUser from "../../../helpers/getUser"
+import getPosts from "../../../helpers/getPost"
 
 // const initialUser = {
 //   name: "Dan",

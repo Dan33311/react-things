@@ -46,6 +46,18 @@
   width: 100px;
 }
 
+.div-1 {
+  outline: 1px solid lime;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 100px;
+}
+.div-2 {
+  outline: 1px solid salmon;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 100px;
+}
 /* .text-objectt {
   color: green;
   text-align: start;

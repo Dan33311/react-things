@@ -7,15 +7,17 @@ import String from "./components/useState/String"
 import ObjectT from "./components/useState/ObjectT"
 import ArrayY from './components/useState/ArrayY'
 
-import Lifecicle from './components/useEffect/Lifecycle'
-import FetchCard from './components/useEffect/FetchCard'
-import ResizeApp from './components/useEffect/ResizeApp';
+import Lifecicle from './components/useEffect/useEffectLuisCabrera/Lifecycle'
+import FetchCard from './components/useEffect/useEffectLuisCabrera/FetchCard'
+import ResizeApp from './components/useEffect/useEffectLuisCabrera/ResizeApp';
 
 // import AppContext from './components/context/AppContext'
 import App2 from './components/context/App2'
-import Counter1 from './components/useEffect/02-useEffect/01-Counter'
-import Counter from './components/useEffect/02-useEffect/02-Counter'
-import Counter3 from './components/useEffect/02-useEffect/03'
+import Counter1 from './components/useEffect/useEffectGuide/01-Counter'
+import Counter from './components/useEffect/useEffectGuide/02-Counter'
+import Counter3 from './components/useEffect/useEffectGuide/03'
+import Counter4 from './components/useEffect/useEffectGuide/04'
+import Example from './components/useEffect/useEffectGuide/05'
 
 
 // import image1 from "./assets/243-glasses-eye-blink-outline.svg"
@@ -35,24 +37,32 @@ function App() {
           <h2 className="text-light">React Stuff</h2>
           {/* <i class="bi bi-folder"></i> */}
         </div>
-        <h2 className="text-light mt-4">useState Hook</h2>
-        <Counters/>
-        <Conditional/>
-        <String/>
-        <ObjectT/>
-        <ArrayY />
-        <h2 className="text-light mt-5 mb-0 pb-0">useEffect Hook</h2>
-        <Lifecicle/>
-        <FetchCard/>
-        <button className="btn btn-warning mt-5" onClick={() => setShow(!show)}>Show / Hide</button>
-        {show && <ResizeApp/>}
-        
+        <div className='div-1'>
+          <h2 className="text-light">useState Hook</h2>
+          <Counters/>
+          <Conditional/>
+          <String/>
+          <ObjectT/>
+          <ArrayY />
+          <h2 className="text-light mt-5 mb-0 pb-0">useEffect Hook</h2>
+          <Lifecicle/>
+          <FetchCard/>
+          <button className="btn btn-warning mt-5" onClick={() => setShow(!show)}>Show / Hide</button>
+          {show && <ResizeApp/>}
+        </div>
+
+        <div className='div-2'>
+          <h2 className="text-light">useEffect Guide</h2>
+          {/* <AppContext /> */}
+          {/* <App2 /> */}
+          <Counter1 />
+          <Counter />
+          <Counter3 />
+          <Counter4 />
+          <Example />
+        </div>
       </div>
-      {/* <AppContext /> */}
-      {/* <App2 /> */}
-      <Counter1 />
-      <Counter />
-      <Counter3 />
+      
     </div>
   );
 }
