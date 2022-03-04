@@ -13,12 +13,11 @@ import ResizeApp from './components/useEffect/useEffectLuisCabrera/ResizeApp';
 
 // import AppContext from './components/context/AppContext'
 import App2 from './components/context/App2'
-import Counter1 from './components/useEffect/useEffectGuide/01-Counter'
-import Counter from './components/useEffect/useEffectGuide/02-Counter'
+import Counter1 from './components/useEffect/useEffectGuide/01'
+import Counter from './components/useEffect/useEffectGuide/02'
 import Counter3 from './components/useEffect/useEffectGuide/03'
 import Counter4 from './components/useEffect/useEffectGuide/04'
 import Example from './components/useEffect/useEffectGuide/05'
-
 
 // import image1 from "./assets/243-glasses-eye-blink-outline.svg"
 
